@@ -7,7 +7,7 @@ font-family: "Playfair Display", serif */
     padding: 0;
     font-family: "Lato", sans-serif;
 }
-
+/* navbar */
 .size {
     width: 200px;
     height: 200px;
@@ -26,7 +26,7 @@ nav li a {
 
 
 }
-
+/* main */
 .logo-completo {
     width: 400px;
     height: 400px;
@@ -43,6 +43,7 @@ main h1 {
     height: 200px;
 }
 
+/* donantes */
 button {
     background-color: #cc0000;
     padding: 20px;
@@ -89,7 +90,7 @@ ol{
 margin-left: 30px;
 color: white;
 }
-
+/* footer */
 footer{
     color: white;
     background-color: #cc0000;
