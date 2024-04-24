@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* font-family: "Lato", sans-serif
+font-family: "Playfair Display", serif */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.size {
+    width: 200px;
+    height: 200px;
+}
+
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+nav li a {
+    color: #cc0000;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+.logo-completo {
+    width: 400px;
+    height: 400px;
+}
+
+
+main h1 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.gotita-size {
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    background-color: #cc0000;
+    padding: 20px;
+    margin: 40px;
+
+}
+
+button a {
+ color: black;
+    border: #cc0000 2px;
+    display: flex;
+    border-radius: 20px;
+text-decoration: none;
+
+}
+
+main ul li {
+    display: list-item;
+    list-style-type: circle;
+    padding: 10px;
+    margin: 20px;
+    font-family: "Playfair Display", serif;
+
+
+
+}
+
+ol{
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.turnos{
+    padding: 10px;
+
+}
+.redes{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.bi{ font-size: 28px;
+margin-left: 30px;
+color: white;
+}
+
+footer{
+    color: white;
+    background-color: #cc0000;
+}
+
+div a{
+    color: white;
+    text-decoration: none;
+}
