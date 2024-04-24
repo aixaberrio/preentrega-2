@@ -9,23 +9,13 @@ font-family: "Playfair Display", serif */
 }
 /* navbar */
 .size {
-    width: 200px;
-    height: 200px;
+    height: 120px; 
 }
 
-
-nav li {
-    display: inline-block;
-    padding: 15px;
+.form-control {
+    margin: auto;
 }
 
-nav li a {
-    color: #cc0000;
-    font-weight: bold;
-    text-decoration: none;
-
-
-}
 /* main */
 .logo-completo {
     width: 400px;
@@ -43,6 +33,13 @@ main h1 {
     height: 200px;
 }
 
+main ul li {
+    display: list-item;
+    list-style-type: circle;
+    padding: 10px;
+    margin: 20px;
+    font-family: "Playfair Display", serif;
+}
 /* donantes */
 button {
     background-color: #cc0000;
@@ -60,37 +57,21 @@ text-decoration: none;
 
 }
 
-main ul li {
-    display: list-item;
-    list-style-type: circle;
-    padding: 10px;
-    margin: 20px;
-    font-family: "Playfair Display", serif;
 
-
-
-}
+/* pacientes ambulatorios */
 
 ol{
     padding: 20px;
     margin: 10px;
 }
 
-
 .turnos{
     padding: 10px;
 
 }
-.redes{
-    margin: 10px;
-    padding: 10px;
-    
-}
-.bi{ font-size: 28px;
-margin-left: 30px;
-color: white;
-}
+
 /* footer */
+
 footer{
     color: white;
     background-color: #cc0000;
@@ -99,4 +80,7 @@ footer{
 div a{
     color: white;
     text-decoration: none;
+}
+.bi{
+    color:white
 }
