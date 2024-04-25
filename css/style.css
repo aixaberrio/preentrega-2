@@ -7,52 +7,58 @@ font-family: "Playfair Display", serif */
     padding: 0;
     font-family: "Lato", sans-serif;
 }
+
 /* ------navbar-------- */
 .size {
-    height: 120px; 
+    height: 120px;
 }
 
 .form-control {
     margin: auto;
 }
-.colorbarra{
-    background-color: #DBC8AC !important;
+
+.colorbarra {
+    background-color: #eddbc0 !important;
     box-shadow: 10px 0px 10px #B73E3E !important;
 }
-.buttonbuscar{
+
+.buttonbuscar {
     background-color: #B73E3E !important;
     color: #eddbc0 !important;
-    border:none !important;
+    border: none !important;
     box-shadow: 2px 2px 2px 2px !important;
 }
 
-/* -----------------------------------index----- */
-/* ----------main-------- */
-/* banner */
-.banner{
-    
+
+/*------ banner */
+.banner {
+
     display: grid;
-    grid-template-columns: repeat(2,500px);
+    grid-template-columns: repeat(2, 500px);
     justify-items: center;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #eddbc0;
+    background-color: #DBC8AC;
     box-shadow: 10px 0px 10px #B73E3E;
 }
-.banner div{
-text-align: center;
-    margin:10px
 
+.banner div {
+    text-align: center;
+    margin: 10px
 }
+
 .logo-completo {
     width: 300px;
     height: 300px;
 }
 
-
-main h1 {
+/* -----------------------------------index----- */
+/* ----------main-------- */
+h1 {
     font-family: "Playfair Display", serif;
     text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 .gotita-size {
@@ -68,71 +74,184 @@ main ul li {
     font-family: "Playfair Display", serif;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+        "sangre donar donacion";
+}
+
+.sangre {
+    grid-area: sangre;
+}
+
+.donar {
+    grid-area: donar;
+}
+
+.donacion {
+    grid-area: donacion;
+}
+
+
 /* ---------------------------------------------donantes */
+
+
+.container-donantes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+        "quienes"
+        "cantidad"
+        "vih"
+        "debilitar";
+    margin: 5px;
+    height: 1000px;
+    text-align: center;
+}
+
+.quienes {
+    grid-area: quienes;
+}
+
+.cantidad {
+    grid-area: cantidad;
+}
+
+.vih {
+    grid-area: vih;
+}
+
+.debilitar {
+    grid-area: debilitar;
+}
+
 button {
     background-color: #B73E3E;
     padding: 20px;
-    margin: 40px;
-
+    margin: 20px;
+    border-radius: 10px;
 }
 
 button a {
- color: black;
+    color: black;
     border: #B73E3E 2px;
-    display: flex;
     border-radius: 20px;
-text-decoration: none;
+    text-decoration: none;
 
 }
 
+.requisitos {
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 /* -----------------------------------------------pacientes ambulatorios */
 
-ol{
+ol {
     padding: 20px;
     margin: 10px;
 }
 
-.turnos{
+.turnos {
     padding: 10px;
 
 }
 
 /* ----------------------------------------------------------contactanos */
-
+.contactanos{display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    text-align: center;
+margin: 30px;
+    width: 400px;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+.enviar{
+    color: #eddbc0;
+    background-color: #B73E3E;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* ----------------------------------------------------------sucursales */
+.container-sucursales {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "mapa indicaciones";
+      margin: 10px;
+  }
+  
+  .mapa { grid-area: mapa; }
+  
+  .indicaciones { grid-area: indicaciones; }
+  
 
 /* ----------------------------------------------------------footer */
 
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
     align-items: center;
-    color:#eddbc0;
+    color: #eddbc0;
     background-color: #B73E3E;
     text-align: center;
     font-size: 13px;
 }
 
-div a{
+div a {
     color: #eddbc0;
     text-decoration: none;
 }
-.bi{
-    color:#eddbc0 !important; 
+
+.bi {
+    color: #eddbc0 !important;
     margin: 10px;
-    }
+}
 
 .menufooter li {
     list-style-type: none;
-    
-}
-.menufooter ul{
-padding-left: 0px !important;    
+
 }
 
-h6{
+.menufooter ul {
+    padding-left: 0px !important;
+}
+
+h6 {
     font-weight: bolder;
 }
