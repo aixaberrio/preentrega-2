@@ -34,6 +34,12 @@ font-family: "Playfair Display", serif */
 .navbar{
     padding: 0% !important;
 }
+.navbar a:hover{
+    font-weight: bolder !important;
+    box-shadow: 10px 10px 10px #B73E3E !important;
+border-radius: 2px !important;
+
+}
 
 /*------ banner */
 
@@ -186,6 +192,8 @@ button a {
     justify-content: space-around;
 }
 
+.requisitos a:visited{ color: grey;}
+
 /* -----------------------------------------------pacientes ambulatorios */
 
 ol {
@@ -265,7 +273,7 @@ margin: 30px;
 
 /* ----------------------------------------------------------footer */
 
-footer {
+.footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -300,6 +308,7 @@ div a {
 h6 {
     font-weight: bolder;
 }
+
 
 /* --------------responsive----------- */
 /* mobile last */
