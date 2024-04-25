@@ -7,7 +7,7 @@ font-family: "Playfair Display", serif */
     padding: 0;
     font-family: "Lato", sans-serif;
 }
-/* navbar */
+/* ------navbar-------- */
 .size {
     height: 120px; 
 }
@@ -15,11 +15,38 @@ font-family: "Playfair Display", serif */
 .form-control {
     margin: auto;
 }
+.colorbarra{
+    background-color: #DBC8AC !important;
+    box-shadow: 10px 0px 10px #B73E3E !important;
+}
+.buttonbuscar{
+    background-color: #B73E3E !important;
+    color: #eddbc0 !important;
+    border:none !important;
+    box-shadow: 2px 2px 2px 2px !important;
+}
 
-/* main */
+/* -----------------------------------index----- */
+/* ----------main-------- */
+/* banner */
+.banner{
+    
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #eddbc0;
+    box-shadow: 10px 0px 10px #B73E3E;
+}
+.banner div{
+text-align: center;
+    margin:10px
+
+}
 .logo-completo {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -40,9 +67,10 @@ main ul li {
     margin: 20px;
     font-family: "Playfair Display", serif;
 }
-/* donantes */
+
+/* ---------------------------------------------donantes */
 button {
-    background-color: #cc0000;
+    background-color: #B73E3E;
     padding: 20px;
     margin: 40px;
 
@@ -50,7 +78,7 @@ button {
 
 button a {
  color: black;
-    border: #cc0000 2px;
+    border: #B73E3E 2px;
     display: flex;
     border-radius: 20px;
 text-decoration: none;
@@ -58,7 +86,7 @@ text-decoration: none;
 }
 
 
-/* pacientes ambulatorios */
+/* -----------------------------------------------pacientes ambulatorios */
 
 ol{
     padding: 20px;
@@ -70,17 +98,41 @@ ol{
 
 }
 
-/* footer */
+/* ----------------------------------------------------------contactanos */
+
+
+/* ----------------------------------------------------------footer */
 
 footer{
-    color: white;
-    background-color: #cc0000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color:#eddbc0;
+    background-color: #B73E3E;
+    text-align: center;
+    font-size: 13px;
 }
 
 div a{
-    color: white;
+    color: #eddbc0;
     text-decoration: none;
 }
 .bi{
-    color:white
+    color:#eddbc0 !important; 
+    margin: 10px;
+    }
+
+.menufooter li {
+    list-style-type: none;
+    
+}
+.menufooter ul{
+padding-left: 0px !important;    
+}
+
+h6{
+    font-weight: bolder;
 }

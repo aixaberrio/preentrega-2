@@ -8,29 +8,53 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-   <nav>
-    <!-- logo -->
-    <a href="../index.html">
-        <img src="../resources/ORSIN FONDO (2).png" alt="logo-servicio" class="size">
-    </a>
-    <ul>
-<li><a href="../pages/donantes.html">Donantes</a></li>
-<li><a href="../pages/pacientesambulatorios.html">Pacientes ambulatorios</a></li>
-<li><a href="../pages/sucursales.html">Sucursales</a></li>
-<li><a href="../pages/contactanos.html">Contactanos</a></li>
-    </ul>
-    <form action="#" method="get">
-        <input type="text" placeholder="buscar" name="busqueda">
-    </form>
-   </nav>
-   <header>
-    <img src="../resources/ORSIN FONDO (3).png" alt="logo-completo" class="logo-completo">
-    <h1>Servicio Privado de Medicina Transfusional Dra. Nelida Penayo</h1>
-    <h2>Celebramos 20 años de servicio <br> Donar sangre salva vidas <br>
-        ¡Dona Hoy!
-    </h2>
-</header>
+    <!-----------------navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary colorbarra" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img class="size" src="../resources/ORSIN FONDO (2).png"
+                    alt="logodelservicio"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./donantes.html">Donantes</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pacientesambulatorios.html">Pacientes ambulatorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./sucursales.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./contactanos.html">Contactanos</a>
+                
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
+                    <button class="btn btn-outline-success buttonbuscar" type="submit">buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+<!-------------------------main -->
    <main>
+    <section class="banner">
+        <div>
+            <h1>Servicio Privado de Medicina Transfusional Dra. Nelida Penayo</h1>
+            <h2>Celebramos 20 años de servicio <br> Donar sangre salva vidas <br> ¡Dona Hoy!</h2>
+        </div>
+        <div><img src="../resources/ORSIN FONDO (3).png" alt="logo-completo" class="logo-completo"></div>
+    </section>
+
     <h1>Información para el paciente ambulatorio</h1>
     <h2>Transfusion de sangre</h2>
     <p>Una transfusión de sangre es un procedimiento médico relativamente sencillo. En una transfusión, un paciente recibe sangre entera o alguno de sus componentes por vía intravenosa (o VI). La VI es un tubo muy fino que se introduce en una vena utilizando una pequeña aguja.
@@ -75,6 +99,7 @@
 
     </form>
    </main>
+   <!---------------footer -->
    <footer>
     <div>
         <h3>Contactanos</h3>
